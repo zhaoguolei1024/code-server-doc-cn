@@ -19,39 +19,31 @@
 
 请参阅最低规格要求[requirements](requirements.md)，以及有关如何设置可以安装`code-server`的 Google VM 的说明。
 
-**TL;DR:** 2核1G 的 Linux 服务器并支持WebSockets
+**TL;DR:** ，总结： 2核1G 的 Linux 服务器并支持WebSockets
 
-## Getting started
+## 入门
 
-There are three ways to get started:
+这里提供3种安装方式
 
-1. Using the [install
-   script](https://github.com/coder/code-server/blob/main/install.sh), which
-   automates most of the process. The script uses the system package manager if
-   possible.
-2. Manually [installing
-   code-server](https://coder.com/docs/code-server/latest/install)
-3. Using our one-click buttons and guides to [deploy code-server to a cloud
-   provider](https://github.com/coder/deploy-code-server) ⚡
+1. 使用 [安装脚本](https://github.com/coder/code-server/blob/main/install.sh), 它可以自动执行大部分过程。如果可能，该脚本会使用系统包管理器
+2. 手动安装 [code-server](https://coder.com/docs/code-server/latest/install)
+3. 使用我们的一键式按钮和指南将代码服务器部署到[云提供商](https://github.com/coder/deploy-code-server) ⚡
 
-If you use the install script, you can preview what occurs during the install
-process:
+如果您使用安装脚本，您可以预览安装过程中发生的情况:
 
 ```bash
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 ```
 
-To install, run:
+仅安装，请运行
 
 ```bash
 curl -fsSL https://code-server.dev/install.sh | sh
 ```
 
-When done, the install script prints out instructions for running and starting
-code-server.
+完成后，安装脚本会打印出运行和启动`code-server`的说明
 
-We also have an in-depth [setup and
-configuration](https://coder.com/docs/code-server/latest/guide) guide.
+我们还有深入的[设置和配置指南](https://coder.com/docs/code-server/latest/guide)
 
 ## 常见问题
 
