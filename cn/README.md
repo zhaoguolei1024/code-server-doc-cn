@@ -49,7 +49,7 @@ curl -fsSL https://code-server.dev/install.sh | sh
 
 [常见问题](https://coder.com/docs/code-server/latest/FAQ).
 
-## 贡献人员
+## 加入我们？
 
 详细信息，请参阅贡献[Contributing](https://coder.com/docs/code-server/latest/CONTRIBUTING)
 
