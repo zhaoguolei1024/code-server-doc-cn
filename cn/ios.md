@@ -1,9 +1,9 @@
-# Using code-server on iOS with iSH
+# 在 iOS 通过 iSH 使用 code-server
 
-1. Install iSH from the [App Store](https://apps.apple.com/us/app/ish-shell/id1436902243)
-2. Install `curl` and `nano` with `apk add curl nano`
-3. Configure iSH to use an earlier version of NodeJS with `nano /etc/apk/repositories` and edit `v3.14` to `v3.12` on both repository links.
-4. Install `nodejs` and `npm` with `apk add nodejs npm`
-5. Install code-server with `curl -fsSL https://code-server.dev/install.sh | sh`
-6. Run code-server with `code-server`
-7. Access on localhost:8080 in your browser
+1. 从 [App Store](https://apps.apple.com/us/app/ish-shell/id1436902243) 安装 iSH
+2. 使用 `apk add curl nano` 安装 `curl` 和 `nano`
+3. 配置 iSH 用于 NodeJS 较早的版本，并在两个存储库`v3.14` 和 `v3.12`链接上进行编辑 `nano /etc/apk/repositories`
+4. 使用 `apk add nodejs npm` 安装 `nodejs` 和 `npm`
+5. 使用 `curl -fsSL https://code-server.dev/install.sh | sh` 安装code-server
+6. 使用 `code-server` 运行code-server
+7. 在浏览器中访问 localhost:8080
