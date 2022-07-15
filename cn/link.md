@@ -1,9 +1,8 @@
 # code-server --link
 
-> Note: This feature is no longer recommended due to instability. Stay tuned for a revised version.
+> 注意：由于不稳定，不再推荐使用此功能。请继续关注修订版。
 
-Run code-server with the flag `--link` and you'll get TLS, authentication, and a dedicated URL
-for accessing your IDE out of the box.
+使用 `--link` 命令运行 code-server ， 您将获得 TLS、身份验证和专用 URL，用于开箱即用地访问您的 IDE.
 
 ```console
 $ code-server --link
