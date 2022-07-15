@@ -2,28 +2,24 @@
 
 [!["GitHub Discussions"](https://img.shields.io/badge/%20GitHub-%20Discussions-gray.svg?longCache=true&logo=github&colorB=purple)](https://github.com/coder/code-server/discussions) [!["Join us on Slack"](https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=brightgreen)](https://coder.com/community) [![Twitter Follow](https://img.shields.io/twitter/follow/CoderHQ?label=%40CoderHQ&style=social)](https://twitter.com/coderhq) [![codecov](https://codecov.io/gh/coder/code-server/branch/main/graph/badge.svg?token=5iM9farjnC)](https://codecov.io/gh/coder/code-server) [![See latest](https://img.shields.io/static/v1?label=Docs&message=see%20latest&color=blue)](https://coder.com/docs/code-server/latest)
 
-Run [VS Code](https://github.com/Microsoft/vscode) on any machine anywhere and
-access it in the browser.
+您可以在任何地方、任何机器上运行 [VS Code](https://github.com/Microsoft/vscode)并在浏览器中访问它
 
 ![Screenshot](./assets/screenshot.png)
 
-## Highlights
+## 优点特性
 
-- Code on any device with a consistent development environment
-- Use cloud servers to speed up tests, compilations, downloads, and more
-- Preserve battery life when you're on the go; all intensive tasks run on your
-  server
+- 在具有一致开发环境的任何设备上编写代码
+- 使用云服务器加速测试、编译、下载等
+- 在旅途中保持电池寿命；所有密集型任务都在您的服务器上运行
 
 > **Note**
-> To manage multiple IDEs, workspaces, and teams, see
-> our new project: [coder/coder](http://cdr.co/coder-github)
+> 要管理多个 IDE、工作区和团队，请参阅我们的新项目: [coder/coder](http://cdr.co/coder-github)
 
 ## Requirements
 
-See [requirements](requirements.md) for minimum specs, as well as instructions
-on how to set up a Google VM on which you can install code-server.
+请参阅最低规格要求[requirements](requirements.md)，以及有关如何设置可以安装`code-server`的 Google VM 的说明。
 
-**TL;DR:** Linux machine with WebSockets enabled, 1 GB RAM, and 2 CPUs
+**TL;DR:** 2核1G 的 Linux 服务器并支持WebSockets
 
 ## Getting started
 
@@ -57,22 +53,18 @@ code-server.
 We also have an in-depth [setup and
 configuration](https://coder.com/docs/code-server/latest/guide) guide.
 
-## Questions?
+## 常见问题
 
-See answers to [frequently asked
-questions](https://coder.com/docs/code-server/latest/FAQ).
+[常见问题](https://coder.com/docs/code-server/latest/FAQ).
 
-## Want to help?
+## 贡献人员
 
-See [Contributing](https://coder.com/docs/code-server/latest/CONTRIBUTING) for
-details.
+详细信息，请参阅贡献[Contributing](https://coder.com/docs/code-server/latest/CONTRIBUTING)
 
-## Hiring
+## 招聘
 
-Interested in [working at Coder](https://coder.com/careers)? Check out [our open
-positions](https://coder.com/careers#openings)!
+有兴趣在 [Coder](https://coder.com/careers) 工作吗？查看我们的[空缺职位](https://coder.com/careers#openings)！
 
-## For Organizations
+## 组织
 
-Want remote development for your organization or enterprise? Visit [our
-website](https://coder.com) to learn more about Coder.
+想要为您的组织或企业进行远程开发？访问我们的网站以了解有关 [Coder](https://coder.com) 的更多信息
